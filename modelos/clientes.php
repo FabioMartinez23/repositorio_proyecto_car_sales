@@ -10,6 +10,7 @@ class Cliente{
     public function __construct($idclientes='', $descripcion='') {
         $this->idclientes = $idclientes;
         $this->descripcion = $descripcion;
+        #333
     }
 
     public function traer_todos_los_clientes(){
