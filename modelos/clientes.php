@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Summary of Cliente
+ */
 class Cliente{
     private $idclientes;
     private $descripcion;
