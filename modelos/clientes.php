@@ -9,7 +9,8 @@ class Cliente{
 
     public function __construct($idclientes='', $descripcion='') {
         $this->idclientes = $idclientes;
-        $this->descripcion = $descripcion;
+        $this->descripcion = $descripcion; #description---
+        #--
         #333
     }
 
@@ -17,4 +18,6 @@ class Cliente{
         $conexion = new Conexion();
         $query = "SELECT *";
     }
+
+    #este es un comentario
 }
